@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        fieldset legend {
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+
+<form action="/submit_registration" method="post">
+    <fieldset>
+        <legend>Registration Form</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="profilePic">Profile Picture:</label>
+        <input type="file" id="profilePic" name="profilePic"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="subscribe">Above filled detail is your:
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <button type="submit">Submit</button><br><br>
+    </fieldset>
+</form>
+
+<p>For internal link <a href="D:\frontend\project\website\index.html">Our website</a> 
+    For external link <a href="https://www.google.com/" target="_blank" rel="noopener">Google</a>.</p>
+
+</body>
+</html>

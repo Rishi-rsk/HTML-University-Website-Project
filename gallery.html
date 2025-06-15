@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-item {
+            margin: 10px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="D:\frontend\project\website\img vid\1695976969-Badminton Court.jpg" alt="School Event 1">
+        </div>
+        <div class="gallery-item">
+            <img src="D:\frontend\project\website\img vid\1695976968-OAT.jpg" alt="School Event 2">
+        </div>
+        <div class="gallery-item">
+            <img src="D:\frontend\project\website\img vid\1695976969-Badminton Court.jpg" alt="School Event 3">
+        </div>
+        <!-- Add more gallery items as needed -->
+    </div>
+</body>
+</html>
+
